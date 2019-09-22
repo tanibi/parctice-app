@@ -12,4 +12,4 @@ function calculateTip(){
     document.getElementById('grand-total').innerHTML = `$${grandTotal.toFixed(2)}`
 }
 
-document.getElementById('calculateTotal').addEventListener('click', calculate)
+document.getElementById('calculateTotal').addEventListener('click', calculateTip)
